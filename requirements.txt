@@ -1,0 +1,20 @@
+# Step 1 (SAM3)
+transformers>=5.0.0
+safetensors>=0.4.0
+huggingface_hub>=0.25.0
+# torch 는 환경에 맞춰 별도 설치 권장 (https://pytorch.org/get-started/locally/).
+# 도커/CUDA 가 이미 갖춰진 환경이면 아래 한 줄을 사용해도 됨:
+# torch>=2.4.0
+
+# Step 2-5 (OpenAI: gpt-4o, gpt-image-1, sora-2)
+openai>=1.50.0
+python-dotenv>=1.0.0
+
+# UI
+streamlit>=1.40.0
+streamlit-image-coordinates>=0.4.0
+
+# 공통
+numpy>=1.26.0
+Pillow>=10.0.0
+requests>=2.31.0
